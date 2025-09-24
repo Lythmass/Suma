@@ -29,7 +29,7 @@ gemini = OpenAI(
 ytt_api = YouTubeTranscriptApi()
 
 system_message = "You are an assistant specialized in summarizing a YouTube video transcript. \n" \
-"You're responsible for providing a summary of the video that emphasizes keypoints and returns a very detailed result in markdown."
+"You're responsible for providing a summary of the video that emphasizes the structure, keypoints, tone and returns a very detailed result in markdown."
 
 class Video:
     def __init__(self, title, url):
